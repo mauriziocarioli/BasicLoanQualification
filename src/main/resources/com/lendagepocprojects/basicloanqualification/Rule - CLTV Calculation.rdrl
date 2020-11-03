@@ -1,0 +1,14 @@
+package com.lendagepocprojects.basicloanqualification;
+
+import java.lang.Number;
+
+rule "Rule - CLTV Calculation"
+	dialect "mvel"
+	salience -1
+	when
+		leadInformation : LeadInformation( propertyValue > 0 )
+	then
+		modify( leadInformation ) {
+				setCLTV( ((leadInformation.eligibleDebt+leadInformation.totalMortgageLiability+500)/leadInformation.propertyValue)*100 )
+		}
+end
