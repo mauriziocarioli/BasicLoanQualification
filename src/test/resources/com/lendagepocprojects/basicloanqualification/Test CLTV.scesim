@@ -53,7 +53,7 @@
           <factAlias>LeadInformation</factAlias>
           <expressionAlias>eligibleDebt</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>210.73357664233575</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -76,7 +76,7 @@
           <factAlias>LeadInformation</factAlias>
           <expressionAlias>totalMortgageLiability</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>160.0</columnWidth>
+          <columnWidth>295.7664233576642</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -99,7 +99,7 @@
           <factAlias>LeadInformation</factAlias>
           <expressionAlias>propertyValue</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>137.00000000000003</columnWidth>
+          <columnWidth>253.25000000000006</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -122,7 +122,7 @@
           <factAlias>LeadInformation</factAlias>
           <expressionAlias>CLTV</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>137.00000000000003</columnWidth>
+          <columnWidth>253.25000000000006</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -238,9 +238,10 @@
     </scesimData>
   </background>
   <settings>
+    <dmoSession>LendageStateless</dmoSession>
     <type>RULE</type>
     <skipFromBuild>false</skipFromBuild>
-    <stateless>false</stateless>
+    <stateless>true</stateless>
   </settings>
   <imports>
     <imports/>
