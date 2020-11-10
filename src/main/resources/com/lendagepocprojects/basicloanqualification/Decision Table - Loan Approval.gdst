@@ -79,7 +79,7 @@
           <width>100</width>
           <header>CLTV</header>
           <constraintValueType>1</constraintValueType>
-          <factField>CLTV</factField>
+          <factField>cltv</factField>
           <fieldType>Double</fieldType>
           <operator>&lt;=</operator>
           <parameters/>
