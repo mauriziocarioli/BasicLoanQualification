@@ -13,7 +13,20 @@
     <width>150</width>
   </ruleNameColumn>
   <metadataCols/>
-  <attributeCols/>
+  <attributeCols>
+    <attribute-column52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <attribute>ruleflow-group</attribute>
+      <reverseOrder>false</reverseOrder>
+      <useRowNumber>false</useRowNumber>
+    </attribute-column52>
+  </attributeCols>
   <conditionPatterns>
     <Pattern52>
       <factType>LeadInformation</factType>
@@ -234,6 +247,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>approval</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>AL, AZ, CA, CO</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -300,6 +318,11 @@
       </value>
       <value>
         <valueString>Qualification FL</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>approval</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
