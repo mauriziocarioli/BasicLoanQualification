@@ -104,14 +104,14 @@
         <condition-column52>
           <typedDefaultValue>
             <valueString></valueString>
-            <dataType>NUMERIC_SHORT</dataType>
+            <dataType>NUMERIC_INTEGER</dataType>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>100</width>
           <header>Min FICO</header>
           <constraintValueType>1</constraintValueType>
-          <factField>FICO</factField>
+          <factField>fico</factField>
           <fieldType>Integer</fieldType>
           <operator>&gt;=</operator>
           <parameters/>
@@ -127,7 +127,7 @@
           <width>100</width>
           <header>Max FICO</header>
           <constraintValueType>1</constraintValueType>
-          <factField>FICO</factField>
+          <factField>fico</factField>
           <fieldType>Integer</fieldType>
           <operator>&lt;</operator>
           <parameters/>
