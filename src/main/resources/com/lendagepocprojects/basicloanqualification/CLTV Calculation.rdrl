@@ -8,5 +8,5 @@ rule "CLTV Calculation"
 	when
 		lead : LeadInformation( value : propertyValue > 0 , debt : eligibleDebt, liability : totalMortgageLiability)
 	then
-		lead.setCLTV( 100*((debt+500*liability)/value) );
+		lead.setcLTV( 100*((debt+liability)/value) );
 end
