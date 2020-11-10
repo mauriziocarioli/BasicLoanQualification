@@ -4,7 +4,8 @@ import java.lang.Number;
 
 rule "CLTV Calculation"
 	dialect "mvel"
-	salience -1
+	salience 1
 	when
+		lead : LeadInformation( )
 	then
 end
