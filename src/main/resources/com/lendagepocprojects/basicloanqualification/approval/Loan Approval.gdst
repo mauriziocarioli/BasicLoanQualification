@@ -222,9 +222,13 @@
     <entries/>
   </auditLog>
   <imports>
-    <imports/>
+    <imports>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>com.lendagepocprojects.basicloanqualification.LeadInformation</type>
+      </org.kie.soup.project.datamodel.imports.Import>
+    </imports>
   </imports>
-  <packageName>com.lendagepocprojects.basicloanqualification</packageName>
+  <packageName>com.lendagepocprojects.basicloanqualification.approval</packageName>
   <version>739</version>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
@@ -232,6 +236,7 @@
     <list>
       <value>
         <valueNumeric class="int">1</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -306,6 +311,7 @@
     <list>
       <value>
         <valueNumeric class="int">2</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
