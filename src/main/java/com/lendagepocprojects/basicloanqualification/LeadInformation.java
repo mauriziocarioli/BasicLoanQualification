@@ -19,7 +19,7 @@ public class LeadInformation implements java.io.Serializable {
 
 	private int propertyValue;
 
-	private double CLTV;
+	private double cltv;
 
 	public LeadInformation() {
 	}
@@ -64,12 +64,12 @@ public class LeadInformation implements java.io.Serializable {
 		this.propertyValue = propertyValue;
 	}
 
-	public double getCLTV() {
-		return this.CLTV;
+	public double getCltv() {
+		return this.cltv;
 	}
 
-	public void setCLTV(double CLTV) {
-		this.CLTV = CLTV;
+	public void setCltv(double cltv) {
+		this.cltv = cltv;
 	}
 
 	public boolean isQualified() {
@@ -99,7 +99,7 @@ public class LeadInformation implements java.io.Serializable {
 	public LeadInformation(java.lang.String state, int eligibleDebt, int FICO,
 			int countHomesFinanced, int totalMortgageLiability,
 			java.lang.String propertyType, boolean qualified,
-			int propertyValue, double CLTV) {
+			int propertyValue, double cltv) {
 		this.state = state;
 		this.eligibleDebt = eligibleDebt;
 		this.FICO = FICO;
@@ -108,7 +108,7 @@ public class LeadInformation implements java.io.Serializable {
 		this.propertyType = propertyType;
 		this.qualified = qualified;
 		this.propertyValue = propertyValue;
-		this.CLTV = CLTV;
+		this.cltv = cltv;
 	}
 
 }
