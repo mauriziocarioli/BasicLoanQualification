@@ -53,7 +53,7 @@
           <factAlias>LeadInformation</factAlias>
           <expressionAlias>fico</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>144.7142857142857</columnWidth>
+          <columnWidth>144.71428571428572</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -76,7 +76,7 @@
           <factAlias>LeadInformation</factAlias>
           <expressionAlias>state</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>144.7142857142857</columnWidth>
+          <columnWidth>144.71428571428572</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -99,7 +99,7 @@
           <factAlias>LeadInformation</factAlias>
           <expressionAlias>eligibleDebt</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>144.7142857142857</columnWidth>
+          <columnWidth>144.71428571428572</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -122,7 +122,7 @@
           <factAlias>LeadInformation</factAlias>
           <expressionAlias>totalMortgageLiability</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>144.7142857142857</columnWidth>
+          <columnWidth>144.71428571428572</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -145,7 +145,7 @@
           <factAlias>LeadInformation</factAlias>
           <expressionAlias>propertyValue</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>144.7142857142857</columnWidth>
+          <columnWidth>144.71428571428572</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -168,7 +168,7 @@
           <factAlias>LeadInformation</factAlias>
           <expressionAlias>propertyType</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>144.7142857142857</columnWidth>
+          <columnWidth>144.71428571428572</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -191,7 +191,7 @@
           <factAlias>LeadInformation</factAlias>
           <expressionAlias>qualified</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>144.7142857142857</columnWidth>
+          <columnWidth>144.71428571428572</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -752,9 +752,11 @@
     </scesimData>
   </background>
   <settings>
+    <dmoSession>LendageStateless</dmoSession>
     <type>RULE</type>
+    <ruleFlowGroup>approval</ruleFlowGroup>
     <skipFromBuild>false</skipFromBuild>
-    <stateless>false</stateless>
+    <stateless>true</stateless>
   </settings>
   <imports>
     <imports/>
