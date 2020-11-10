@@ -162,7 +162,7 @@
       <header>Debug</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>System.out.println(&quot;############## &quot;+kcontext.getRule().getName() + &quot;Rule is fired!&quot;)</text>
+          <text>System.out.println(&quot;############## &quot;+drools.getRule().getName() + &quot;Rule is fired!&quot;)</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
