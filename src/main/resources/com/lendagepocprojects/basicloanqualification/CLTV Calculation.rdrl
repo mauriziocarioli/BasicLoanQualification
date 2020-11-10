@@ -6,6 +6,7 @@ rule "CLTV Calculation"
 	dialect "mvel"
 	salience 1
 	when
-		lead : LeadInformation( )
+		lead : LeadInformation( value : propertyValue > 0 , debt : eligibleDebt, liability : totalMortgageLiability)
 	then
+		lead.setCLTV( 100*((debt+500*liability)/value) );
 end
