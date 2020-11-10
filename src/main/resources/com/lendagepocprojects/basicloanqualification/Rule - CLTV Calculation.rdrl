@@ -9,6 +9,7 @@ rule "Rule - CLTV Calculation"
 		leadInformation : LeadInformation( propertyValue > 0 )
 	then
 		modify( leadInformation ) {
-				setCLTV( ((leadInformation.eligibleDebt+leadInformation.totalMortgageLiability+500)/leadInformation.propertyValue)*100 )
+				setcLTV( ((leadInformation.eligibleDebt+leadInformation.totalMortgageLiability+500)/leadInformation.propertyValue)*100 )
 		}
+		System.out.println("===> Firing rule "+drools.getRule().getName());
 end
