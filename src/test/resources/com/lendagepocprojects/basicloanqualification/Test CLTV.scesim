@@ -107,7 +107,7 @@
               <step>LeadInformation</step>
             </ExpressionElement>
             <ExpressionElement>
-              <step>CLTV</step>
+              <step>cltv</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
@@ -120,7 +120,7 @@
           </factIdentifier>
           <className>double</className>
           <factAlias>LeadInformation</factAlias>
-          <expressionAlias>CLTV</expressionAlias>
+          <expressionAlias>cltv</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>253.25000000000006</columnWidth>
         </FactMapping>
@@ -193,7 +193,7 @@
               <name>1|2</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">50.1</rawValue>
+            <rawValue class="string">50</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
