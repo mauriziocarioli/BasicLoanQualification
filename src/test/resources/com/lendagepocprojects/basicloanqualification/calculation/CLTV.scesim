@@ -240,6 +240,7 @@
   <settings>
     <dmoSession>LendageStateless</dmoSession>
     <type>RULE</type>
+    <ruleFlowGroup>calculation</ruleFlowGroup>
     <skipFromBuild>false</skipFromBuild>
     <stateless>true</stateless>
   </settings>
