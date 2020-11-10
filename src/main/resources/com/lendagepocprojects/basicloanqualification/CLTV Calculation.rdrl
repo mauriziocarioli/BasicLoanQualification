@@ -1,0 +1,9 @@
+package com.lendagepocprojects.basicloanqualification;
+
+import java.lang.Number;
+
+rule "CLTV Calculation"
+	dialect "mvel"
+	when
+	then
+end
