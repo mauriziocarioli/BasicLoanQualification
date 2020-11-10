@@ -1,5 +1,5 @@
 <decision-table52>
-  <tableName>Loan</tableName>
+  <tableName>Loan Approval</tableName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
     <width>50</width>
