@@ -10,7 +10,7 @@ public class LeadInformation implements java.io.Serializable {
 
 	private java.lang.String state;
 	private int eligibleDebt;
-	private int FICO;
+	private int fico;
 	private int countHomesFinanced;
 	private int totalMortgageLiability;
 	private java.lang.String propertyType;
@@ -20,9 +20,6 @@ public class LeadInformation implements java.io.Serializable {
 	private int propertyValue;
 
 	private double cltv;
-
-	public LeadInformation() {
-	}
 
 	public java.lang.String getState() {
 		return this.state;
@@ -80,12 +77,12 @@ public class LeadInformation implements java.io.Serializable {
 		this.qualified = qualified;
 	}
 
-	public int getFICO() {
-		return this.FICO;
+	public int getFico() {
+		return this.fico;
 	}
 
-	public void setFICO(int FICO) {
-		this.FICO = FICO;
+	public void setFICO(int fico) {
+		this.fico = fico;
 	}
 
 	public int getCountHomesFinanced() {
@@ -94,21 +91,6 @@ public class LeadInformation implements java.io.Serializable {
 
 	public void setCountHomesFinanced(int countHomesFinanced) {
 		this.countHomesFinanced = countHomesFinanced;
-	}
-
-	public LeadInformation(java.lang.String state, int eligibleDebt, int FICO,
-			int countHomesFinanced, int totalMortgageLiability,
-			java.lang.String propertyType, boolean qualified,
-			int propertyValue, double cltv) {
-		this.state = state;
-		this.eligibleDebt = eligibleDebt;
-		this.FICO = FICO;
-		this.countHomesFinanced = countHomesFinanced;
-		this.totalMortgageLiability = totalMortgageLiability;
-		this.propertyType = propertyType;
-		this.qualified = qualified;
-		this.propertyValue = propertyValue;
-		this.cltv = cltv;
 	}
 
 }
