@@ -10,6 +10,7 @@ public class LeadInformation implements java.io.Serializable {
 
 	private java.lang.String state;
 	private int eligibleDebt;
+	@org.kie.api.definition.type.Label("FICO")
 	private int fico;
 	private int countHomesFinanced;
 	private int totalMortgageLiability;
@@ -19,6 +20,7 @@ public class LeadInformation implements java.io.Serializable {
 
 	private int propertyValue;
 
+	@org.kie.api.definition.type.Label("CLTV")
 	private double cltv;
 
 	public java.lang.String getState() {
@@ -91,6 +93,24 @@ public class LeadInformation implements java.io.Serializable {
 
 	public void setCountHomesFinanced(int countHomesFinanced) {
 		this.countHomesFinanced = countHomesFinanced;
+	}
+
+	public LeadInformation() {
+	}
+
+	public LeadInformation(java.lang.String state, int eligibleDebt, int fico,
+			int countHomesFinanced, int totalMortgageLiability,
+			java.lang.String propertyType, boolean qualified,
+			int propertyValue, double cltv) {
+		this.state = state;
+		this.eligibleDebt = eligibleDebt;
+		this.fico = fico;
+		this.countHomesFinanced = countHomesFinanced;
+		this.totalMortgageLiability = totalMortgageLiability;
+		this.propertyType = propertyType;
+		this.qualified = qualified;
+		this.propertyValue = propertyValue;
+		this.cltv = cltv;
 	}
 
 }
