@@ -9,6 +9,6 @@ rule "CLTV"
 	when
 		lead : LeadInformation( value : propertyValue > 0 , debt : eligibleDebt, liability : totalMortgageLiability)
 	then
-		lead.setCltv( 100*(debt+liability)/value );
+		lead.setCltv( 100*(debt+liability+500)/value );
 		System.out.println("===> Firing rule "+drools.getRule().getName()+", CLTV="+lead.getCltv());
 end
